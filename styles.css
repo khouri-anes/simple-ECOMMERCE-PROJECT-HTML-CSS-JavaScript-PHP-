@@ -1,0 +1,661 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    scroll-behavior: smooth;
+    
+}
+.first{
+    min-height: 100vh;
+    background-image: url(images/young-housewife-is-wearing-yellow-gloves-while-cleaning-with-product-clean-white-wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    z-index: 1;
+    
+    
+    
+}
+.fixed{
+    width: 100%;
+    height: 80px;
+    background-color: #A180D7;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    box-shadow: 2px 2px 12px rgb(34, 33, 33);
+}
+
+
+
+nav >ul{
+    
+    width: 80%;
+    list-style: none;
+ display: flex;
+ 
+ 
+ 
+ 
+}
+nav li{
+    
+    height: 50px;
+  
+    
+    
+    
+    
+}
+nav >ul>li>.a-container{
+    margin-top: 15px;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    
+    align-items: center;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    font-weight: 400;
+    
+   
+}
+nav >ul>li>.a-container:hover{
+    background-color: rgba(222, 217, 217, 0.507);
+    height: 50px;
+    border-radius: 20px;
+    border: .5px solid rgba(88, 36, 36, 0.493) ;
+    transform: translatey(4px);
+    
+    
+}
+nav li:first-child{
+    margin-right: auto;
+    
+    
+}
+nav img{
+    margin-top: 15px;
+    margin-left: 30px;
+    
+    width: 80px;
+    height: 55px;
+    transition: .5s all  ease-out;
+    border-radius: 10px;
+}
+nav img:hover{
+    
+    height: 60px;
+    
+    
+    transform: translatey(4px);
+}
+
+.sidebar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.42);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+    transition: .5s all ease-out;
+    
+}
+.sidebar li{
+    width: 100%;
+
+}
+.menubutton{
+    display: none;
+    cursor: pointer;
+    right: 40px;
+    top: 20px;
+    position: fixed;
+    
+    
+    
+}
+
+@media(max-width: 800px){
+    .hideli{
+        display: none;
+    }
+    .menubutton{
+        display: block;
+        
+    
+
+    }
+
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+    
+}
+
+
+
+.accueil {
+    
+    
+   
+   margin-top: 80px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   
+    
+}
+.accueil h1{
+    margin-bottom: 20px;
+    padding: 0 10px 10px 10px;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 30px;
+    
+    color: rgb(19, 19, 19);
+    background-color: rgba(245, 245, 220, 0.082);
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.accueil h2{
+    font-weight: 300;
+    color: rgb(23, 22, 22);
+    
+    line-height: 32px;
+    font-size: 22px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.accueil>h2>span{
+    color: #c409f3;
+    font-weight: 400;
+    font-size: 1.35em;
+    line-height: 32px;
+    
+}
+.accueil h3{
+    transform: translate(100%,40px);
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 20px;
+    width: 400px;
+    border-radius: 30px;
+    text-align: center;
+    color: #1b1f8a;
+    
+
+}
+.accueil h3::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background-color: rgb(242, 255, 0);
+    left: 15px;
+
+}
+.accueil h1::before{
+
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 4px;
+    background-color: rgb(242, 255, 0);
+    left: 30px;
+    
+
+}
+.accueil h2::before{
+    content: "";
+    position: absolute;
+    height: 110px;
+    width: 4px;
+    background-color: rgb(242, 255, 0);
+    left: 30px;
+}
+.accueil img{
+    width: 300px;
+    height: 150px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.all h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 20%;
+    height: 45px;
+    border: 2px rgb(213, 210, 14) solid;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+ 
+.shop{
+    background-color: beige;
+}
+
+
+.hidden{
+    opacity: 0;
+    transition: 2s all;
+    
+    translate: -100%;
+}
+.show{
+    opacity: 1;
+    translate: 0;
+    
+}
+
+@media(prefers-reduced-motion){
+ .hidden{
+ transition: none;
+ }
+}
+
+  
+  
+  
+  .best-sales{
+    background-image: url(images/background.jpg);
+   background-position: center;
+   background-size: cover;
+  }
+  .caroussel{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+     
+   }
+   .caroussel .slider{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 36s linear infinite;
+    z-index: 2;
+  }
+  @keyframes autoRun{
+    from{
+        transform: perspective(1000px) rotateX(-10deg) rotateY(0deg);
+    }to{
+        transform: perspective(1000px) rotateX(-14deg) rotateY(360deg);
+    }
+}
+  .caroussel .slider .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform: 
+        rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+        translateZ(480px);
+  }
+  .caroussel .slider .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .9;
+    border-radius: 15px;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .caroussel .slider{
+        width: 160px;
+        height: 200px;
+        left: calc(50% - 80px);
+    }
+    .caroussel .slider .item{
+        transform: 
+            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(450px);
+    }
+    .accueil h3{
+        transform: translate(70%,40px);
+        font-weight: 500;
+        line-height: 20px;
+        font-size: 1.25em;
+        width: 350px;
+    }
+    .accueil h3::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 4px;
+        background-color: rgb(242, 255, 0);
+        left: -10px;
+    
+    }
+    
+   
+}
+@media screen and (max-width: 767px) {
+    .caroussel .slider{
+        width: 100px;
+        height: 150px;
+        left: calc(50% - 50px);
+    }
+    .caroussel .slider .item{
+        transform: 
+            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(300px);
+    }
+    .accueil h3{
+        transform: translate(50%,40px);
+        font-weight: 400;
+        line-height: 15px;
+        font-size: 1em;
+        width: 250px;
+    }
+    .accueil h1{
+        margin-bottom: 20px;
+        padding: 0 10px 10px 10px;
+        font-weight: 400;
+        line-height: 15px;
+        font-size: 1.25em;
+        width: 250px;
+    }
+    .accueil h2{
+        font-weight: 300;
+        line-height: 15px;
+        font-size: .95em;
+        width: 250px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .accueil h3::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 4px;
+        background-color: rgb(242, 255, 0);
+        left: 0px;
+    
+    }
+    .accueil h1::before{
+    
+        content: "";
+        position: absolute;
+        height: 70px;
+        width: 4px;
+        background-color: rgb(242, 255, 0);
+        left: 10px;
+        
+    
+    }
+    .accueil h2::before{
+        content: "";
+        position: absolute;
+        height: 110px;
+        width: 4px;
+        background-color: rgb(242, 255, 0);
+        left: 10px;
+    }
+  
+    
+}
+
+.caroussel>.shop-a{
+    
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 26px;
+    background-color: rgba(90, 48, 90, 0.884);
+    border-radius: 15px;
+    border: 3px solid rgb(77, 64, 73);
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin-top: 530px;
+    right: 40%;
+    padding: 6px;
+}
+.caroussel>.shop-a:hover{
+    background-color: rgba(101, 50, 101, 0.934);
+}
+
+
+
+
+
+
+  
+
+/* PRODUCT*/
+.products-category{
+  
+  font-size: 2em;
+  line-height: 32px;
+  margin: 10px 0 10px 40px;
+
+}
+  
+  .container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 95%;
+    height: 100%;
+    gap: 20px;
+    
+ }
+  .product-card {
+    
+    width: 200px;
+    height: 370px;
+    margin-right: 40px;
+    box-shadow: 0 0px 3px rgb(129, 114, 114);
+  }
+  
+  .product-image {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+  
+  .discount-tag {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #3be3bb;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+    text-decoration: none;
+  }
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #ff7d7d;
+    color: #fff;
+  }
+  
+  .product-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .product-brand {
+    text-transform: uppercase;
+  }
+  
+  .product-short-description {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  .actual-price {
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  
+  
+  
+  
+  
+
+  
+
+
+  .search-bar{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+   
+    
+}
+.search-bar input{
+    padding: 10px 12px;
+    margin: 20px 0 0 20px;
+    width: 350px;
+  
+}
+
+.search-results {
+    width: 400px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    
+}
+
+.search-results .result-item {
+    border-bottom: 1px solid #151414;
+    background-color: #e9e6ed;
+}
+
+.search-results .result-item:last-child {
+    border-bottom: none;
+}
+.result-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-imagee {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.result-item p {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.product-buttonn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition:  0.3s;
+    height: 25px;
+    text-align: center;
+}
+
+.product-buttonn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+

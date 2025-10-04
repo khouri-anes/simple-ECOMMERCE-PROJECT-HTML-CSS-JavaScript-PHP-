@@ -31,14 +31,7 @@ let thumbnails = document.getElementsByClassName('under')
 
      })
 
-     function showsidebar(){
-        const sidebar=document.querySelector('.sidebar');
-        sidebar.style.display='flex';
-            }
-            function closesidebar(){
-            const x=document.querySelector(".sidebar");
-            x.style.display="none";
-            }    
+      
 
      let wilayas=[
        {
@@ -400,11 +393,11 @@ stopdeskChoice.addEventListener('change', function() {
 
 
 const products = [
-    { id: 1, name: 'aspiraterur boman 4en1 f70osk', price: 999, imgUrl: 'images/image 13.jpg' ,url: 'product/iphone13.html' },
-    { id: 2, name: 'Samsung Galaxy S21', price: 899, imgUrl: 'images/image 14.jpg',url: 'product/iphone13.html' },
-    { id: 3, name: 'Google Pixel 6', price: 799, imgUrl: 'images/image 15.jpg',url: 'product/iphone13.html' },
-    { id: 4, name: 'OnePlus 9', price: 729, imgUrl: 'images/image 16.jpg',url: 'product/iphone13.html' },
-    { id: 5, name: 'Sony Xperia 5', price: 850, imgUrl: 'images/image 17.jpg',url: 'product/iphone13.html' },
+    { id: 1, name: 'aspiraterur boman 4en1 f70osk', price: 43500, imgUrl: 'images/image 13.jpg' ,url: 'product/iphone13.html' },
+    { id: 2, name: 'cocotte bbf be22 7pcs 7+4L', price: 18900, imgUrl: 'images/cctbbf/CCTBBF.jpg',url: 'product/iphone13.html' },
+    { id: 3, name: 'cocotte bbf dct22 7pcs 7+4L', price: 18500, imgUrl: 'images/image 15.jpg',url: 'product/iphone13.html' },
+    { id: 4, name: 'aspirateur sonachi scv 9033 sans fil', price: 18800, imgUrl: 'images/image 16.jpg',url: 'product/iphone13.html' },
+    { id: 5, name: 'karcher wd3', price: 850, imgUrl: 'images/image 17.jpg',url: 'product/iphone13.html' },
     { id: 6, name: 'Xiaomi Mi 11', price: 799, imgUrl: 'images/image 2.jpg',url: 'product/iphone13.html' },
     { id: 7, name: 'Huawei P50', price: 699, imgUrl: 'images/image 4.jpg',url: 'product/iphone13.html' }
 ];
